@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a complete recommendation system pipeline, demonstrating mastery of:
 
@@ -29,7 +29,7 @@ This project implements a complete recommendation system pipeline, demonstrating
 
 ---
 
-## 📊 Results Preview
+##  Results Preview
 
 | Model | NDCG@10 | Precision@10 | Recall@10 | Coverage | RMSE |
 |-------|---------|--------------|-----------|----------|------|
@@ -45,7 +45,7 @@ This project implements a complete recommendation system pipeline, demonstrating
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -101,11 +101,11 @@ print(results)
 ```
 recommender-system-foundation/
 │
-├── 📊 data/
+├── data/
 │   ├── raw/              # MovieLens dataset (auto-downloaded)
 │   └── processed/        # Preprocessed data and statistics
 │
-├── 🧠 src/
+├── src/
 │   ├── data_loader.py    # Data loading utilities
 │   ├── preprocess.py     # Data preprocessing & splitting
 │   ├── evaluation.py     # Comprehensive evaluation metrics
@@ -116,21 +116,21 @@ recommender-system-foundation/
 │       ├── collaborative.py  # Collaborative filtering
 │       └── content_based.py  # Content-based & hybrid
 │
-├── 📓 notebooks/
+├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_baseline_models.ipynb
 │   ├── 03_collaborative_filtering.ipynb
 │   └── 04_content_based.ipynb
 │
-├── 💾 models/            # Saved trained models
-├── 📋 requirements.txt
-├── 🔧 setup.py
-└── 📖 README.md
+├── models/            # Saved trained models
+├── requirements.txt
+├── setup.py
+└── README.md
 ```
 
 ---
 
-## 🧩 Implemented Algorithms
+##  Implemented Algorithms
 
 ### Baseline Methods
 - **Random Recommender** - Stochastic baseline
@@ -150,7 +150,7 @@ recommender-system-foundation/
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 ### Ranking Metrics
 - **Precision@K** - Relevance of top-K recommendations
@@ -168,21 +168,21 @@ recommender-system-foundation/
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 The project includes rich visualizations:
 
-- 📊 Rating distribution analysis
-- 🔥 Sparsity heatmaps
-- 📈 Model comparison charts
-- 🎯 Precision-Recall curves
-- 🌐 Recommendation overlap analysis
-- ⏱️ Temporal patterns
-- 🎭 Genre analysis
+-  Rating distribution analysis
+-  Sparsity heatmaps
+-  Model comparison charts
+-  Precision-Recall curves
+-  Recommendation overlap analysis
+-  Temporal patterns
+-  Genre analysis
 
 ---
 
-## 🧪 Running Experiments
+##  Running Experiments
 
 ### Option 1: Jupyter Notebooks
 
@@ -257,7 +257,7 @@ This project is designed for progressive learning:
 
 ---
 
-## 🔬 Experimental Findings
+## Experimental Findings
 
 ### What Works Well
 - **Item-based CF** outperforms user-based for sparse data
@@ -360,10 +360,10 @@ This project demonstrates:
 ✅ **Problem-solving** and critical thinking  
 
 Perfect for:
-- 🎯 Data Science portfolios
-- 📚 Learning recommendation systems
-- 🏢 Interview preparation
-- 🚀 Building production recommenders
+- Data Science portfolios
+- Learning recommendation systems
+- Interview preparation
+- Building production recommenders
 
 ---
 
