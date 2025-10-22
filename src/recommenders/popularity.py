@@ -9,7 +9,7 @@ from typing import List, Tuple, Optional
 from datetime import datetime, timedelta
 import sys
 sys.path.append('..')
-from recommenders.base import BaseRecommender
+from src.recommenders.base import BaseRecommender
 
 
 class RandomRecommender(BaseRecommender):

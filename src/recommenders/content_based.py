@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import sys
 sys.path.append('..')
-from recommenders.base import BaseRecommender
+from src.recommenders.base import BaseRecommender
 
 
 class ContentBasedRecommender(BaseRecommender):

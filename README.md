@@ -30,18 +30,17 @@ This project implements a complete recommendation system pipeline, demonstrating
 ---
 
 ##  Results Preview
+| Model                | Precision@10 | Recall@10 | F1@10  | NDCG@10 | HitRate@10 | MAP    | Coverage | RMSE  |
+|-----------------------|--------------|------------|--------|----------|-------------|--------|-----------|--------|
+| Content-Based         | 0.0298       | 0.0280     | 0.0243 | 0.0389   | 0.2365      | 0.0111 | 0.2200    | 1.5000 |
+| ItemCF                | 0.0347       | 0.0164     | 0.0201 | 0.0338   | 0.1847      | 0.0058 | 0.5826    | 0.9672 |
+| SVD                   | 0.2138       | 0.2351     | 0.1858 | 0.3017   | 0.8013      | 0.1364 | 0.2782    | 2.4924 |
+| Hybrid-Item (α=0.3)   | 0.0302       | 0.0282     | 0.0246 | 0.0408   | 0.2387      | 0.0114 | 0.2283    | 1.2477 |
+| Hybrid-Item (α=0.5)   | 0.0339       | 0.0215     | 0.0220 | 0.0369   | 0.2127      | 0.0075 | 0.5779    | 1.1121 |
+| Hybrid-Item (α=0.7)   | 0.0355       | 0.0166     | 0.0205 | 0.0368   | 0.1857      | 0.0066 | 0.5856    | 1.0153 |
+| Hybrid-SVD (α=0.7)    | 0.1802       | 0.1493     | 0.1406 | 0.2343   | 0.6361      | 0.0948 | 0.3549    | 2.0995 |
+| Hybrid-Item (α=0.9)   | 0.0355       | 0.0166     | 0.0205 | 0.0368   | 0.1857      | 0.0066 | 0.5856    | 0.9689 |
 
-| Model | NDCG@10 | Precision@10 | Recall@10 | Coverage | RMSE |
-|-------|---------|--------------|-----------|----------|------|
-| Random | 0.0421 | 0.0234 | 0.0156 | 0.9823 | 1.2543 |
-| Popularity | 0.1234 | 0.0876 | 0.0654 | 0.0234 | 1.0234 |
-| User-CF | 0.2345 | 0.1456 | 0.1123 | 0.4567 | 0.9234 |
-| Item-CF | 0.2567 | 0.1567 | 0.1234 | 0.5234 | 0.8945 |
-| SVD | 0.2789 | 0.1678 | 0.1345 | 0.6789 | 0.8756 |
-| Content | 0.2123 | 0.1234 | 0.0987 | 0.7654 | 0.9456 |
-| Hybrid | **0.2890** | **0.1789** | **0.1456** | **0.7123** | **0.8534** |
-
-*Note: Fill in actual results after running experiments*
 
 ---
 
@@ -273,7 +272,7 @@ This project is designed for progressive learning:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Python 3.8+
 - **Data**: pandas, NumPy, SciPy
@@ -284,7 +283,7 @@ This project is designed for progressive learning:
 
 ---
 
-## 📖 References
+##  References
 
 ### Papers
 - Sarwar et al. (2001) - [Item-Based Collaborative Filtering](https://dl.acm.org/doi/10.1145/371920.372071)
@@ -300,7 +299,7 @@ This project is designed for progressive learning:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is a portfolio/learning project, but suggestions are welcome!
 
@@ -318,7 +317,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Your Name**
 
@@ -329,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - GroupLens Research for the MovieLens dataset
 - scikit-learn and Surprise library contributors

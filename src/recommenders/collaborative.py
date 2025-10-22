@@ -11,7 +11,7 @@ from scipy.sparse import csr_matrix
 from scipy.sparse.linalg import svds
 import sys
 sys.path.append('..')
-from recommenders.base import BaseRecommender
+from src.recommenders.base import BaseRecommender
 
 
 class UserBasedCF(BaseRecommender):
